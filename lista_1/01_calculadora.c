@@ -1,6 +1,7 @@
 //* 1- Leia dois números inteiros e imprima soma, subtração, multiplicação e divisão (inteira e resto).
 
 #include <stdio.h>
+#include <stdlib.h> //* Biblioteca de funções utilitárias gerais
 
 int main() {
     system("chcp 65001 > nul"); //* Formata acentos no código
@@ -24,9 +25,9 @@ int main() {
     divisao = primeiro_numero / segundo_numero;
     resto = primeiro_numero % segundo_numero;
 
-    printf("Resultado: %d \n", soma);
-    printf("Resultado: %d \n", subtracao);
-    printf("Resultado: %d \n", multiplicador);
-    printf("Resultado: %d", divisao);
+    printf("Soma: %d \n", soma);
+    printf("Subtração: %d \n", subtracao);
+    printf("Multiplicação: %d \n", multiplicador);
+    printf("Divisão: %d", divisao);
     printf(" Com resto igual a: %d", resto);
 }
