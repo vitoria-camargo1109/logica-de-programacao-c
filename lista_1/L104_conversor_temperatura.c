@@ -34,4 +34,6 @@ int main() {
         printf("Opção inválida, tente novamente.");
     }
     
+    return 0;
+    
 }

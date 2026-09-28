@@ -15,4 +15,7 @@ int main() {
         resultado = tabuada * numero;
         printf("%d X %d = %d \n", numero, tabuada, resultado);
     }
+
+    return 0;
+    
 }

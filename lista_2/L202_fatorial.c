@@ -16,6 +16,8 @@ int main() {
 
     }
 
-printf("O fatorial é igual a: %d", fatorial);
+    printf("O fatorial é igual a: %d", fatorial);
 
+    return 0;
+    
 }

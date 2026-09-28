@@ -30,5 +30,6 @@ int main() {
         printf("Todos os números são iguais.");
     }
     
+    return 0;
     
 }

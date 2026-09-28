@@ -19,4 +19,6 @@ int main() {
         printf("Você está reprovado(a). Não desanime, você consegue!");
     }
 
+    return 0; 
+    
 }

@@ -18,4 +18,6 @@ int main() {
     } else {
         printf("O número é ímpar.");
     }
+
+    return 0;
 }
