@@ -22,12 +22,21 @@ int main() {
     soma = primeiro_numero + segundo_numero;
     subtracao = primeiro_numero - segundo_numero;
     multiplicador = primeiro_numero * segundo_numero;
-    divisao = primeiro_numero / segundo_numero;
-    resto = primeiro_numero % segundo_numero;
+    
 
     printf("Soma: %d \n", soma);
     printf("Subtração: %d \n", subtracao);
     printf("Multiplicação: %d \n", multiplicador);
-    printf("Divisão: %d", divisao);
-    printf(" Com resto igual a: %d", resto);
+    if (segundo_numero != 0) {
+        divisao = primeiro_numero / segundo_numero;
+        resto = primeiro_numero % segundo_numero;
+
+        printf("Divisão: %d", divisao);
+        printf(" Com resto igual a: %d", resto);   
+    } else {
+        printf("Não é possível dividir por 0.");
+    }
+
+    return 0;
+   
 }
